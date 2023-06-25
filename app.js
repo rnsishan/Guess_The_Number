@@ -4,7 +4,7 @@ while(!maximum){
 maximum= parseInt(prompt("please enter a valid number"));
 }
 
-const targetNum= Math.floor(Math.Random* maximum)+1;
+const targetNum= Math.floor(Math.Random()* maximum)+1;
 
 let guess=parseInt("enter the guess");
 let attempts=1;
